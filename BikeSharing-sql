@@ -1,0 +1,91 @@
+-- Creating a new table that combine all data from Q4 2020 until Q4 2021
+CREATE TABLE TEMP_UNION AS
+SELECT *
+FROM(
+SELECT *
+FROM T202010
+UNION ALL
+SELECT *
+FROM T202011
+UNION ALL
+SELECT *
+FROM T202012
+UNION ALL
+SELECT *
+FROM T202101
+UNION ALL
+SELECT *
+FROM T202102
+UNION ALL
+SELECT *
+FROM T202103
+UNION ALL
+SELECT *
+FROM T202104
+UNION ALL
+SELECT *
+FROM T202105
+UNION ALL
+SELECT *
+FROM T202106
+UNION ALL
+SELECT *
+FROM T202107
+UNION ALL
+SELECT *
+FROM T202108
+UNION ALL
+SELECT *
+FROM T202109
+UNION ALL
+SELECT *
+FROM T202110
+UNION ALL
+SELECT *
+FROM T202111
+UNION ALL
+SELECT *
+FROM T202112)
+AS TEMP_UNION;
+
+SELECT *
+FROM TEMP_UNION;
+
+-- Adding a new column
+ALTER TABLE TEMP_UNION
+ADD day_of_week INT;
+
+-- Finding rough normal distribution to eliminate outliers
+WITH Percentiles AS (
+SELECT day, trip_duration, PERCENT_RANK() OVER(ORDER BY trip_duration) AS Percentile
+FROM TEMP_UNION)
+SELECT * 
+FROM Percentiles
+WHERE day = 0 AND Percentile BETWEEN 0.05 AND 0.95
+ORDER BY trip_duration;
+
+-- Made a new table with the new added column
+CREATE TABLE BikeSharingsRound AS 
+WITH DayWeek AS (
+SELECT ride_id, CASE CAST (strftime('%w', started_at) AS INT)
+    WHEN 0 THEN 'Sunday'
+    WHEN 1 THEN 'Monday'
+    WHEN 2 THEN 'Tuesday'
+    WHEN 3 THEN 'Wednesday'
+    WHEN 4 THEN 'Thursday'
+    WHEN 5 THEN 'Friday'
+    WHEN 6 THEN 'Saturday'
+    END AS day_of_week
+FROM TEMP_UNION)
+SELECT ride_id, rideable_type, started_at, ended_at, member_casual, ride_length, ROUND(trip_duration), day_of_week
+FROM(
+SELECT TEMP_UNION.ride_id, rideable_type, started_at, ended_at, member_casual, day, ride_length, trip_duration, day_of_week
+FROM TEMP_UNION
+INNER JOIN DayWeek
+ON TEMP_UNION.ride_id = DayWeek.ride_id)
+WHERE day = 0 AND trip_duration BETWEEN 120 AND 3600
+
+--
+SELECT ride_id, trip_duration
+FROM BikeSharingsRound
+WHERE trip_duration LIKE '%.%'
