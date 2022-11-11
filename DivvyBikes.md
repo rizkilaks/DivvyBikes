@@ -31,8 +31,8 @@ The data consists of 15 .csv files from October 2020 until December 2021, totali
 
 ### BQ 1 - How do annual members and casual riders use bicycles differently?
 
-![](Figures/Casual%20Rider.png)
-![](Figures/Annual%20Member.png)
+![](Charts/Casual%20Rider.png)
+![](Charts/Annual%20Member.png)
 
 - Casual riders mostly use bicycles on weekends with peak hours at 10 am to 6 pm, for weekdays, casual riders use bicycles mostly in the afternoon, which is 4 pm to 7 pm.
 - Annual members use bicycles mostly on weekdays, with peak hours from 6 to 8 am, and 3 to 7 pm. Meanwhile, on weekends, the trend is the same as for casual riders, namely peak hours from 10 am to 6 pm.
@@ -41,14 +41,14 @@ The data consists of 15 .csv files from October 2020 until December 2021, totali
 - Annual members use bicycles mostly on weekdays, with peak hours from 6 to 8 am, and 3 to 7 pm. Meanwhile, on weekends, the trend is the same as for casual riders, namely peak hours from 10 am to 6 pm.
 
 
-![](Figures/Average%20Ride%20Duration%20and%20Total%20Ride%20per%20Day.png)
+![](Charts/Average%20Ride%20Duration%20and%20Total%20Ride%20per%20Day.png)
 
 - Casual riders have an average trip duration that ranges from 16 to 20 minutes, with the highest trip duration obtained on weekends
 - Annual members have an average trip duration that ranges from 12 to 14 minutes, with the highest trip duration obtained on weekends
 - Total ride per day for casual rider range from 272 thousand to 365 thousand on weekdays, and eventually increases to 545 thousand on weekends
 - Total ride per day for annual member range from 465 thousand to 532 thousand on weekdays, but on weekends this figure decreases to a merely 415 thousand.
 
-![](Figures/Total%20Ride%20per%20Ride%20Duration.png)
+![](Charts/Total%20Ride%20per%20Ride%20Duration.png)
 
 Both have the pretty much the same trend, but with different peaks. Number of ride for annual members peak at 3 to 6 minutes, while casual riders peak at 6 to 9 minutes. In addition, 0-30 minutes rides is dominated by annual members, while 30+ minutes rides is dominated by casual riders.
 
@@ -72,25 +72,25 @@ Annual membership is a must buy for regular users if the price is that low in co
 
 
 <p align="center">
-    <img src="Figures/Total%20Ride.png">
+    <img src="Charts/Total%20Ride.png">
 </p>
 
 Classic bikes are the most frequently used with a total of 3,117,175 rides with the most users being annual members, namely 63.15%, followed by electric bikes with a total of 2,189,147 rides with the most users being annual members, namely 54.93% and finally docked bikes with the most users being casual riders, namely 57.43%.
 
-![](Figures/Monthly%20Performance-Bike.png)
+![](Charts/Monthly%20Performance-Bike.png)
 
 Based on the chart above, before December 2021, riders prefer to use the docked bike. However, since Classic Bike's releases on the same month, the riders' preference has shifted from docked bike to the classic bike.    
 
 <p align="center">
-    <img width="50%" src="Figures/CHI-E-Bike-Zone-Map.png">
+    <img width="50%" src="Charts/CHI-E-Bike-Zone-Map.png">
 </p>
 
 On the other hand, some areas can only be reached by using electric bike. That's why, when the trend falls in August 2021 and beyond, eletric bike still get good results.
 
 ### BQ 4 - How did Divvy Bikes perform throughout the year?
 
-![](Figures/Quarterly%20Performance.png)
-![](Figures/Monthly%20Performance.png)
+![](Charts/Quarterly%20Performance.png)
+![](Charts/Monthly%20Performance.png)
 
 Total rides decreased in the fourth quarter of 2020 to the lowest point in February 2021 with a total of 46,432 rides, then the trend reversed from the end of the first quarter to its peak at the beginning of the third quarter of 756,258. decreased again in the following month until the end of the year. Unfortunately, the data is limited so we cant track what happened before October 2020, but it it seems that the trend that occurred in the fourth quarter of 2020 continues into 2021.
 
