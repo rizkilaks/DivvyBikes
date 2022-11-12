@@ -10,8 +10,6 @@
 
 ![](Charts/DivvyBikes.jpg)
 
----
-
 ## **Introduction**
 In 2016, Divvy Bikes launched a successful bike-sharing offering. Since then, the program has grown to a fleet of 5,824 bikes that are geo-tracked and locked into a network of 692 stations across Chicago. Bikes can be accessed from one station and returned to another at any time in the system.
 
@@ -30,8 +28,6 @@ From there, we can turn it into business questions that will be used as a guide 
     <li>How did Divvy Bikes perform throughout the year?</li> 
 </ol>
 
----
-
 ## **Data Validation**
 The data consists of 15 .csv files from October 2020 until December 2021, totaling 6,375,005 and 5,913,054 rows, before and after cleaning, respectively. All data cleaning was performed using SQL and is summarized below.
 
@@ -42,8 +38,6 @@ The data consists of 15 .csv files from October 2020 until December 2021, totali
 <li>Eliminated outliers</li>
 <li>Made a new table and exported it to .csv</li>
 </ol>
-
----
 
 ## **Data Discovery and Visualization**
 
@@ -109,8 +103,6 @@ On the other hand, some areas can only be reached by using electric bike. That's
 
 Total rides decreased in the fourth quarter of 2020 to the lowest point in February 2021 with a total of 46,432 rides, then the trend reversed from the end of the first quarter to its peak at the beginning of the third quarter of 756,258. decreased again in the following month until the end of the year. Unfortunately, the data is limited so we cant track what happened before October 2020, but it it seems that the trend that occurred in the fourth quarter of 2020 continues into 2021.
 
----
-
 ## **Conclusion**
 The conclusions that can be drawn from the Divvy Bikes data are as follows:
 <ol>
@@ -120,8 +112,6 @@ The conclusions that can be drawn from the Divvy Bikes data are as follows:
 <li>Classic bike is the most widely used, followed by electric bike and docked bike.
 <li>They did good on the first half, but went bad on the second half, just like the second half of 2020.</li>
 </ol>
-
----
 
 ## **Recommendation**
 From the conclusion, we recommend the marketing team to consider the following options:
