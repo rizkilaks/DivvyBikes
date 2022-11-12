@@ -26,7 +26,7 @@ They has set a clear goal: Designing a marketing strategy aimed at converting ca
 From there, we can turn it into business questions that will be used as a guide for our analysis.
 
 <ol>
-    <li>How do annual member and casual rider use bicycles differently</li>
+    <li>How do annual member and casual rider use bicycles differently?</li>
     <li>Why do casual rider buy Divvy Bikes annual memberhip?</li>
     <li>What types of bicycles are used the most?</li> 
     <li>How did Divvy Bikes perform throughout the year?</li> 
@@ -84,11 +84,11 @@ It is quite clear that they bought annual membership because they need to commut
 
 For casual users, paying an annual membership is definitely much cheaper and time-saving than paying as casual rider. But how about other transportation? Well, we can take a look at the information below, which was obtained from Divvy Bikes official website, [click here](https://ride.divvybikes.com/pricing).
 
-- Annual Membership costs $108/year for unlimited 45-minute ride.
-- Day Pass costs $15 for unlimited 3-hour ride in a 24-hour period.
-- Single Ride costs $3.30 for a 30-minute ride.
-- After reaching the time limit, all plans above costs extra $0.15/minute.
-- A single train and bus ride costs $2.50 and $2.25, respectively. There are also 1 Day Pass and 1 Month Pass that costs $5 and $75, respectively.
+- Annual Membership costs $108/year for unlimited 45-minute ride
+- Day Pass costs $15 for unlimited 3-hour ride in a 24-hour period
+- Single Ride costs $3.30 for a 30-minute ride
+- After reaching the time limit, all plans above costs extra $0.15/minute
+- A single train and bus ride costs $2.50 and $2.25, respectively. There are also 1 Day Pass and 1 Month Pass that costs $5 and $75, respectively
 
 Annual membership is a must buy for casual users if the price is that low in compared to other options. In addition, Divvy Bikes also has University Membership and Divvy for Business programs that makes the pricing even cheaper.
 
@@ -129,7 +129,7 @@ Total rides decreased in the fourth quarter of 2020 to the lowest point in Febru
 ## **Conclusion**
 The conclusions that can be drawn from the Divvy Bikes data are as follows:
 <ol>
-<li>Annual member are locals who use bicycles mainly to commute within the city on weekdays from home to office and vice versa</li>
+<li>Annual member are locals who use bicycles mainly to commute within the city on weekdays from home to office and vice versa.</li>
 <li>casual rider are both locals and tourists who mainly use bicycle on weekends, though rarely.</li>
 <li>casual rider buy a Divvy Bikes membership because its a lot cheaper than other public transportation.
 <li>Classic bike is the most widely used, followed by electric bike and docked bike.
@@ -144,6 +144,6 @@ The conclusions that can be drawn from the Divvy Bikes data are as follows:
 From the conclusion, we recommend the marketing team to consider the following options:
 <ol>
 <li> Create a new plan that is shorter than annual membership as casual rider may not want to be tied to annual membership, this can be 1, 3 or 6-month membership. Then, after they plan ends, send them a promotion containing discount code for an annual membership. This plan could encourage casual rider to become annual member if they feel the need to use the service frequently. </li>
-<li> Introduce some discounts in certain months for monthly membership (for example, months where total ride decreases) </li>
+<li> Introduce some discounts in certain months for monthly membership (for example, months where total ride decreases). </li>
 <li> Just like many subscription-based services, we can also introduce a family plan, this will bring us more new member at once.</li>
 </ol>
