@@ -10,8 +10,6 @@
 
 ![](Charts/DivvyBikes.jpg)
 
-<br>
-
 ---
 
 ## **Introduction**
@@ -32,8 +30,6 @@ From there, we can turn it into business questions that will be used as a guide 
     <li>How did Divvy Bikes perform throughout the year?</li> 
 </ol>
 
-<br>
-
 ---
 
 ## **Data Validation**
@@ -46,8 +42,6 @@ The data consists of 15 .csv files from October 2020 until December 2021, totali
 <li>Eliminated outliers</li>
 <li>Made a new table and exported it to .csv</li>
 </ol>
-
-<br>
 
 ---
 
@@ -76,8 +70,6 @@ Both have the pretty much the same trend, but with different peaks. Number of ri
 
 Long story short, annual member and casual rider behave differently. On average, annual member tend to have a shorter ride than casual rider and mainly use the bike on weekdays, whereas casual rider use the bike on weekends. If we notice on the last graph, in terms of total ride, casual rider beat annual member in longer ride durations. This is partly because there are casual rider who buy Day Pass and have much longer ride duration than the annual member as we can see in the information provided in the next business question. Unfortunately, the data is limited, so we can't be sure.
 
-<br>
-
 ### **BQ 2 - Why do casual rider buy Divvy Bikes annual memberhip?**
 
 It is quite clear that they bought annual membership because they need to commute within the city frequently, it is not hard to believe that most of the annual member are local workers, given the trend shown in the chart from the previous business question. 
@@ -92,10 +84,7 @@ For casual users, paying an annual membership is definitely much cheaper and tim
 
 Annual membership is a must buy for casual users if the price is that low in compared to other options. In addition, Divvy Bikes also has University Membership and Divvy for Business programs that makes the pricing even cheaper.
 
-<br>
-
 ### **BQ 3 - What types of bicycles are used the most?**
-
 
 <p align="center">
     <img src="Charts/Total%20Ride.png">
@@ -113,16 +102,12 @@ Based on the chart above, before December 2021, riders prefer to use the docked 
 
 On the other hand, some areas can only be reached by using electric bike. That's why, when the trend falls in August 2021 and beyond, eletric bike still get good results.
 
-<br>
-
 ### **BQ 4 - How did Divvy Bikes perform throughout the year?**
 
 ![](Charts/Quarterly%20Performance.png)
 ![](Charts/Monthly%20Performance.png)
 
 Total rides decreased in the fourth quarter of 2020 to the lowest point in February 2021 with a total of 46,432 rides, then the trend reversed from the end of the first quarter to its peak at the beginning of the third quarter of 756,258. decreased again in the following month until the end of the year. Unfortunately, the data is limited so we cant track what happened before October 2020, but it it seems that the trend that occurred in the fourth quarter of 2020 continues into 2021.
-
-<br>
 
 ---
 
@@ -135,8 +120,6 @@ The conclusions that can be drawn from the Divvy Bikes data are as follows:
 <li>Classic bike is the most widely used, followed by electric bike and docked bike.
 <li>They did good on the first half, but went bad on the second half, just like the second half of 2020.</li>
 </ol>
-
-<br>
 
 ---
 
